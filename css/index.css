@@ -1,0 +1,234 @@
+body {
+  background-color: rgb(96, 128, 93);
+}
+
+/*/////////////////
+main heading/banner
+///////////////////*/
+
+.main-heading {
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 15px;
+  color: rgb(172, 20, 20);
+  border: red 12px solid;
+  border-radius: 25px;
+  height: 200px;
+  width: 500px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 900;
+  text-align: center;
+  line-height: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0px 3px 4px rgb(155, 16, 58);
+  box-shadow: 10px 10px 5px 1px purple;
+  position: relative;
+  left: 345px;
+}
+
+/*/ ////////////////////////////////////
+fixed banner (unaffected by scrolling)
+///////////////////////////////////////  */
+
+.fixed-banner {
+  border: red 12px solid;
+  border-radius: 25px;
+  height: 80px;
+  width: 500px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px 1px purple;
+  background-color: rgb(0, 255, 0);
+  position: fixed;
+  bottom: 50px;
+  left: 340px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-style: italic;
+  font-weight: 900;
+  color: rgb(121, 0, 0);
+  z-index: 10;
+}
+
+.fixed-banner1 {
+  font-size: 30px;
+}
+
+.fixed-banner2 {
+  font-size: 23px;
+}
+
+/*///////////////////
+middle marketing box
+///////////////////// */
+
+.ad-box {
+    border: green 12px solid;
+    color: rgb(0, 0, 87);
+    text-shadow: 0px 3px 4px rgb(0, 0, 87);
+    font-weight: 900;
+    position: relative;
+    height: 1000px;
+}
+
+.ad-box1 {
+    background-color: white;
+    box-shadow: 10px 10px 5px 1px purple;
+    border: red 12px solid;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ad-box2 {
+    background-color: white;
+    box-shadow: 10px 10px 5px 1px purple;
+    border: red 12px solid;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    padding-top: 15px;
+    position: absolute;
+    top: 5px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+}
+
+.image1 {
+    height: 150px;
+    transform: rotateY(180deg);
+    filter: drop-shadow(7px 7px 5px black);
+}
+
+.ad-box3 {
+    background-color: white;
+    box-shadow: 10px 10px 5px 1px purple;
+    border: red 12px solid;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    font-size: 32px;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+}
+
+.ad-box4 {
+    background-color: white;
+    box-shadow: 10px 10px 5px 1px purple;
+    border: red 12px solid;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+}
+
+.ad-box4a {
+    font-size: 32px;
+}
+
+.ad-box4b {
+    text-align: center;
+}
+
+.ad-box4c {
+    background-color: red;
+    border-radius: 50px;
+}
+
+/*/ ///////
+store menu
+////////// */
+
+.store-box {
+  background-color: green;
+  height: 750px;
+  width: 750px;
+  border: purple 12px solid;
+  position: relative;
+  left: 235px;
+  z-index: 4;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.store-box1 {
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+}
+
+.store-box2 {
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.store-box2a {
+  background-color: #ffff88;
+  border: silver 3px solid;
+}
+
+.store-box-head {
+  font-size: 25px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.store-box-items {
+  line-height: 45px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+
+.store-box3 {
+  background-color: #ffff88;
+  border: silver 3px solid;
+  border-right: 0;
+  width: 760px;
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0px;
+}
+
+.box-out {
+  z-index: 5;
+}
